@@ -37,7 +37,7 @@ boxplot(d[,1:20])
 boxplot(d_sel[,1:20])
 ccres <- ConsensusClusterPlus(as.matrix(d_sel),
                               maxK=9,
-                              reps=100,
+                              reps=1000,
                               pItem=0.8,
                               pFeature=1,
                               tmyPal = c("white","blue"),
